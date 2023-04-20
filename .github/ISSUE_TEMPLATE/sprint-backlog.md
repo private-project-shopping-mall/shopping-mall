@@ -15,8 +15,8 @@ assignees: ''
 
 ## Tasks
 
--[ ] Itme 1
+- [ ] Itme 1
 
 ## References
 
--[google](https://www.google.com/)
+- [google](https://www.google.com/)
