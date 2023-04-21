@@ -9,4 +9,6 @@ public interface ItemRepository extends JpaRepository<Item, Long> {
 
     List<Item> findByItemNm(String itemNm);
 
+    List<Item> findByPriceLessThanOrderByPriceDesc(Integer price);
+
 }
