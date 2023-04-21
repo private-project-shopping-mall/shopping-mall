@@ -19,7 +19,17 @@
 
 ## 사용 도구
 
-- Java
+- Java11
 - SpringBoot
 - GitKraken
+- GitHub
+
+## 스프링 dependency
+
+- lombok
+- jpa
+- web
+- thymeleaf
+- mysql
+- h2
 
