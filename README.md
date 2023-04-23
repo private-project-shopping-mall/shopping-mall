@@ -15,7 +15,7 @@
 ## 참여 인원
 
 - MeteorLee : 본인
-- MeteorLe : 깃허브 연습용 계정
+- SubMeteor : 깃허브 연습용 계정
 
 ## 사용 도구
 
