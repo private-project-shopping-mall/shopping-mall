@@ -52,6 +52,9 @@ dependencies {
 	// thymeleaf layout 추가
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
 
+	// spring security 추가
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
 }
 
 
