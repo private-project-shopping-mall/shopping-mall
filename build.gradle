@@ -46,6 +46,12 @@ dependencies {
 			"com.querydsl:querydsl-apt:${queryDslVersion}:jpa"
 	)
 
+	// Devtools 추가
+	implementation 'org.springframework.boot:spring-boot-devtools'
+
+	// thymeleaf layout 추가
+	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+
 }
 
 

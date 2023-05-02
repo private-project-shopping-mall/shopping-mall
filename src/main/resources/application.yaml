@@ -29,3 +29,11 @@ spring:
     hibernate:
       ddl-auto: create
     database-platform: org.hibernate.dialect.MySQL8Dialect
+  # Love Reload 기능 활성화
+  devtools:
+    livereload:
+      enabled: true
+  # 타임리프 캐시 중지
+  thymeleaf:
+    cache: false
+
