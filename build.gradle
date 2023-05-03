@@ -58,6 +58,13 @@ dependencies {
 	// validator
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
+	// spring security test
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	// 시큐리티 타임리프 연동
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+
+
 }
 
 
