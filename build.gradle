@@ -55,6 +55,9 @@ dependencies {
 	// spring security 추가
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
+	// validator
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
 }
 
 
@@ -62,9 +65,9 @@ dependencies {
 sourceSets {
 	main {
 		java {
-			srcDirs = ["$projectDir/src/main/java"]
+//			srcDirs = ["$projectDir/src/main/java"]
 
-//            srcDirs = ["$projectDir/src/main/java", "$projectDir/build/generated"]
+            srcDirs = ["$projectDir/src/main/java", "$projectDir/build/generated"]
 
 		}
 	}
