@@ -52,6 +52,19 @@ dependencies {
 	// thymeleaf layout 추가
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
 
+	// spring security 추가
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// validator
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	// spring security test
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	// 시큐리티 타임리프 연동
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+
+
 }
 
 
@@ -59,9 +72,9 @@ dependencies {
 sourceSets {
 	main {
 		java {
-			srcDirs = ["$projectDir/src/main/java"]
+//			srcDirs = ["$projectDir/src/main/java"]
 
-//            srcDirs = ["$projectDir/src/main/java", "$projectDir/build/generated"]
+            srcDirs = ["$projectDir/src/main/java", "$projectDir/build/generated"]
 
 		}
 	}
