@@ -38,3 +38,17 @@ spring:
   thymeleaf:
     cache: false
 
+  # 파일 업로드 설정
+  servlet:
+    multipart:
+      # 개당 최대 사이즈
+      max-file-size: 20MB
+      # 요청당 최대 사이즈
+      max-request-size: 100MB
+
+# 상품 이미지 업로드 경로
+itemImgLocation: C:/shop/item
+# 리소스 업로드 경로
+uploadPath: file:///C:/shop/
+
+
