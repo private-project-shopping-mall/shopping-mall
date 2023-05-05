@@ -27,7 +27,8 @@ spring:
         format_sql: true
 
     hibernate:
-      ddl-auto: create
+#      ddl-auto: create
+      ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL8Dialect
   # Love Reload 기능 활성화
   devtools:
