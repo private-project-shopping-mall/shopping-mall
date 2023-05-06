@@ -1,6 +1,6 @@
 package com.shop.domain;
 
-import com.shop.domain.constant.OrderStatus;
+import com.shop.constant.OrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 

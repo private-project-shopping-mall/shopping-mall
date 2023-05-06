@@ -1,6 +1,6 @@
 package com.shop.domain;
 
-import com.shop.domain.constant.Role;
+import com.shop.constant.Role;
 import com.shop.dto.MemberFormDto;
 import lombok.Getter;
 import lombok.Setter;
@@ -40,7 +40,7 @@ public class Member extends BaseEntity{
         member.setAddress(memberFormDto.getAddress());
         String password = passwordEncoder.encode(memberFormDto.getPassword());
         member.setPassword(password);
-        member.setRole(Role.USER);
+        member.setRole(Role.ADMIN);
         return member;
     }
 
