@@ -4,7 +4,7 @@ import com.querydsl.core.QueryResults;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.shop.domain.*;
-import com.shop.domain.constant.ItemSellStatus;
+import com.shop.constant.ItemSellStatus;
 import com.shop.dto.ItemSearchDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

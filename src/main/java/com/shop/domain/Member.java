@@ -1,6 +1,6 @@
 package com.shop.domain;
 
-import com.shop.domain.constant.Role;
+import com.shop.constant.Role;
 import com.shop.dto.MemberFormDto;
 import lombok.Getter;
 import lombok.Setter;

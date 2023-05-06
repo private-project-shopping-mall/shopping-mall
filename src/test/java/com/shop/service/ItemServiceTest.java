@@ -2,7 +2,7 @@ package com.shop.service;
 
 import com.shop.domain.Item;
 import com.shop.domain.ItemImg;
-import com.shop.domain.constant.ItemSellStatus;
+import com.shop.constant.ItemSellStatus;
 import com.shop.dto.ItemFormDto;
 import com.shop.repository.ItemImgRepository;
 import com.shop.repository.ItemRepository;

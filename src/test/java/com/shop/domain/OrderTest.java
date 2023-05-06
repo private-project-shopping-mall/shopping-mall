@@ -1,6 +1,6 @@
 package com.shop.domain;
 
-import com.shop.domain.constant.ItemSellStatus;
+import com.shop.constant.ItemSellStatus;
 import com.shop.repository.ItemRepository;
 import com.shop.repository.MemberRepository;
 import com.shop.repository.OrderItemRepository;
