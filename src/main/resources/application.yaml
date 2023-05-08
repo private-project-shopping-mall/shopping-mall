@@ -25,9 +25,12 @@ spring:
         show_sql: true
         # 콘솔창에 출력되는 쿼리를 가독성 좋게 포맷팅
         format_sql: true
+        # 기본 batch size 설정
+        default_batch_fetch_size: 1000
 
     hibernate:
-      ddl-auto: create
+#      ddl-auto: create
+      ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL8Dialect
   # Love Reload 기능 활성화
   devtools:
@@ -36,4 +39,18 @@ spring:
   # 타임리프 캐시 중지
   thymeleaf:
     cache: false
+
+  # 파일 업로드 설정
+  servlet:
+    multipart:
+      # 개당 최대 사이즈
+      max-file-size: 20MB
+      # 요청당 최대 사이즈
+      max-request-size: 100MB
+
+# 상품 이미지 업로드 경로
+itemImgLocation: C:/shop/item
+# 리소스 업로드 경로
+uploadPath: file:///C:/shop/
+
 
